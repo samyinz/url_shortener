@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
  root 'urls#index'
 
+ get 'urls/:id/short' => 'urls#short'
+
 end
